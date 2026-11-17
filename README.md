@@ -1,5 +1,8 @@
 # @qubiq-psp/react
 
+> [!IMPORTANT]
+> **This repository moved to [qubiq-psp/sdk](https://github.com/qubiq-psp/sdk/tree/main/packages/react)** (`packages/react`) and is archived, read-only. `@qubiq-psp/react` is released from there since 2026-11-17; its full history, including this repository's, is kept in that folder, and its release tags are `react-v<version>`. Open issues and pull requests in [qubiq-psp/sdk](https://github.com/qubiq-psp/sdk).
+
 React component for the PSP payment widget. It shows the platform's payment page in an `<iframe>` on your site and tells your interface what happens there: the invoice loaded, the status changed, the invoice is paid or expired.
 
 - Your server builds the link with [`@qubiq-psp/sdk`](https://github.com/qubiq-psp/node-sdk#payment-widget). This package only renders it and reports events.
